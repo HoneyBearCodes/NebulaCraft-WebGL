@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  overflow: hidden;
+}
+
+html {
+  font-size: 62.5%;
+  background-color: #000;
+}
+
+.webgl {
+  position: fixed;
+  top: 0;
+  left: 0;
+}
+
+.keybind-overlay {
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  color: #fff;
+  font-family: 'Anta', sans-serif;
+  font-size: 1.8rem;
+}
+
+.keybind-overlay.right {
+  right: 0;
+  left: unset;
+}
+
+.keybind-overlay__header {
+  background-color: #d63484;
+  padding: 0.6rem 1.2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.keybind-overlay__body {
+  background-color: #ff9bd2;
+  color: #402b3a;
+  padding: 0.8rem 1.2rem;
+  line-height: 1.25;
+  letter-spacing: 0.1rem;
+}
+
+@media (max-width: 600px) {
+  .keybind-overlay {
+    display: none;
+  }
+}

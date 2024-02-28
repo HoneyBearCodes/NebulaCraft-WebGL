@@ -1,0 +1,21 @@
+{
+  "name": "nebulacraft",
+  "version": "1.0.0",
+  "description": "Craft your own cosmic wonders with NebulaCraft, an interactive WebGL galaxy generator. Explore a universe of possibilities in real-time.",
+  "private": true,
+  "main": "src/js/main.js",
+  "type": "module",
+  "scripts": {
+    "start": "vite",
+    "build": "vite build"
+  },
+  "author": "Shashank Singh",
+  "license": "GPL-3.0-only",
+  "dependencies": {
+    "lil-gui": "^0.19.1",
+    "three": "^0.161.0"
+  },
+  "devDependencies": {
+    "vite": "^5.1.4"
+  }
+}

@@ -1,0 +1,25 @@
+{
+  "lang": "en",
+  "dir": "ltr",
+  "short_name": "NebulaCraft",
+  "name": "NebulaCraft by Shashank Singh",
+  "description": "Craft your own cosmic wonders with NebulaCraft, an interactive WebGL galaxy generator. Explore a universe of possibilities in real-time.",
+  "start_url": "/",
+  "scope": "/",
+  "icons": [
+    { "src": "images/android-chrome-192x192.png", "type": "image/png", "sizes": "192x192" },
+    { "src": "images/android-chrome-512x512.png", "type": "image/png", "sizes": "512x512" },
+    {
+      "src": "images/android-chrome-512x512.png",
+      "type": "image/png",
+      "sizes": "512x512",
+      "purpose": "maskable"
+    }
+  ],
+  "background_color": "#000",
+  "theme_color": "#ff6030",
+  "display": "standalone",
+  "orientation": "portrait",
+  "prefer_related_applications": false,
+  "navigation_preload": false
+}
